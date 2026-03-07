@@ -29,4 +29,5 @@ rm -f /etc/nginx/conf.d/default.conf
 
 nginx -t
 
+systemctl reload nginx
 systemctl restart nginx
